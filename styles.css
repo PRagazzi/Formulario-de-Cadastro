@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+
+body {
+    background-color: #7c8071;
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    display: block;
+    text-align: center;
+    padding: 15px;
+    font-size: 3rem;
+    margin-top: 10px;
+    color: #dde3ca;
+}
+
+form {
+    box-sizing: border-box;
+    background-color: #3d3c3b;
+    width: 90%;
+    padding: 50px;
+    margin: 50px auto;
+    border-radius: 15px;
+    max-width: 500px; /* Define um valor máximo para o formulário*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+input {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    background-color: #487aa1;
+    color: #b2d9f7;
+}
+
+input::placeholder {
+    color:#dde3ca; /* Mudando apenas a cor do placeholder */
+}
+
+label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #dde3ca;
+}
+
+button {
+    width: 100%;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #dde3ca;
+    color: #3d3c3b;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: none;
+}
+
+button:hover {
+    background-color: #dde3caab;
+}
+
+.mensagemErro {
+    font-size: 0.9rem;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
